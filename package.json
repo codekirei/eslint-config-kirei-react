@@ -12,10 +12,10 @@
     "url": "git+https://github.com/codekirei/eslint-config-kirei-react.git"
   },
   "keywords": [
+    "config",
     "eslint",
     "eslintconfig",
-    "kirei",
-    "config"
+    "kirei"
   ],
   "author": "Jacob Blakely (codekirei)",
   "license": "MIT",
