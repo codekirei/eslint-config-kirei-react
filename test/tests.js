@@ -35,7 +35,7 @@ exports['eslint-config-kirei-react'] = {
   },
 
   'all react rules are configured': () => {
-    assert.deepEqual(diff(reactRules, kireiReactRules), [])
+    assert.deepEqual(diff(reactRules, kireiReactRules), ['jsx-sort-prop-types'])
   },
 
   'only react rules are configured': () => {
