@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-kirei-react",
+  "version": "0.1.0",
+  "description": "eslint react rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint *.js rules/*.js test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codekirei/eslint-config-kirei-react.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "kirei",
+    "config"
+  ],
+  "author": "Jacob Blakely (codekirei)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codekirei/eslint-config-kirei-react/issues"
+  },
+  "homepage": "https://github.com/codekirei/eslint-config-kirei-react#readme",
+  "dependencies": {
+    "eslint": "2.9.0",
+    "eslint-config-kirei-es5": "0.1.2",
+    "eslint-config-kirei-es6": "0.1.0",
+    "eslint-plugin-jsx-a11y": "1.0.4",
+    "eslint-plugin-react": "5.0.1"
+  },
+  "devDependencies": {
+    "lodash.difference": "4.2.0",
+    "mocha": "2.4.5"
+  }
+}
