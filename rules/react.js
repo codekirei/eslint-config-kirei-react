@@ -8,7 +8,7 @@ module.exports = {
   'react/jsx-curly-spacing': [2, 'never', { allowMultiline: true }],
   'react/jsx-equals-spacing': [2, 'never'],
   'react/jsx-first-prop-new-line': [2, 'multiline'],
-  'react/jsx-handler-names': [2, { eventHandlerPrefix: 'handle', eventHandlerPropPrefix: 'on' }],
+  'react/jsx-handler-names': 0,
   'react/jsx-indent': [2, 2],
   'react/jsx-indent-props': [2, 2],
   'react/jsx-key': 2,
