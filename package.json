@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kirei-react",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "eslint react rules",
   "main": "index.js",
   "scripts": {
